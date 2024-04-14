@@ -25,6 +25,7 @@
 		325214BF2BCB037500D66389 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 325214B12BCB037500D66389 /* Roboto-Regular.ttf */; };
 		325214C02BCB037500D66389 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 325214B22BCB037500D66389 /* Roboto-Thin.ttf */; };
 		325214C12BCB037500D66389 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 325214B32BCB037500D66389 /* Roboto-ThinItalic.ttf */; };
+		325214C42BCB056E00D66389 /* UIFont Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214C32BCB056E00D66389 /* UIFont Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		325214B12BCB037500D66389 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		325214B22BCB037500D66389 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		325214B32BCB037500D66389 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		325214C32BCB056E00D66389 /* UIFont Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		325214A52BCB031200D66389 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				325214C22BCB053700D66389 /* Extensions */,
 				325214A62BCB033900D66389 /* Fonts */,
 			);
 			path = Resources;
@@ -125,6 +128,14 @@
 				325214B32BCB037500D66389 /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		325214C22BCB053700D66389 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				325214C32BCB056E00D66389 /* UIFont Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				325214962BCAFB5200D66389 /* ViewController.swift in Sources */,
 				325214922BCAFB5200D66389 /* AppDelegate.swift in Sources */,
 				325214942BCAFB5200D66389 /* SceneDelegate.swift in Sources */,
+				325214C42BCB056E00D66389 /* UIFont Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
