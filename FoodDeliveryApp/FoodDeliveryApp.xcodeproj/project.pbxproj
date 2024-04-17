@@ -38,6 +38,7 @@
 		325214DD2BCD4E3200D66389 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214DC2BCD4E3200D66389 /* TabBarController.swift */; };
 		325214E12BCE393400D66389 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214E02BCE393400D66389 /* OnboardingViewController.swift */; };
 		325214E32BCE397C00D66389 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214E22BCE397C00D66389 /* OnboardingViewPresenter.swift */; };
+		325214E52BCF916C00D66389 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		325214DC2BCD4E3200D66389 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		325214E02BCE393400D66389 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		325214E22BCE397C00D66389 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			children = (
 				325214E02BCE393400D66389 /* OnboardingViewController.swift */,
 				325214E22BCE397C00D66389 /* OnboardingViewPresenter.swift */,
+				325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				325214D92BCD4D8700D66389 /* ListCoordinator.swift in Sources */,
 				325214D52BCD4D3400D66389 /* HomeCoordinator.swift in Sources */,
 				325214DD2BCD4E3200D66389 /* TabBarController.swift in Sources */,
+				325214E52BCF916C00D66389 /* OnboardingPartViewController.swift in Sources */,
 				325214C42BCB056E00D66389 /* UIFont Extension.swift in Sources */,
 				325214E32BCE397C00D66389 /* OnboardingViewPresenter.swift in Sources */,
 				325214CF2BCD11D700D66389 /* Coordinator.swift in Sources */,
