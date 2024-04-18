@@ -12,7 +12,10 @@ protocol OnboardingViewOutput: AnyObject{
 }
 
 class OnboardingViewPresenter: OnboardingViewOutput{
+    private let userStorage = UserStorage.shared
+    
     func onboardingFinish() {
+        userStorage.passedOnboarding = true
         coordinator.finish()
     }
     // MARK: - Properties
