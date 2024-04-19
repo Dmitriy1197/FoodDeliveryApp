@@ -41,6 +41,9 @@
 		325214E52BCF916C00D66389 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */; };
 		325214E82BD18D0E00D66389 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214E72BD18D0E00D66389 /* UserStorage.swift */; };
 		325214EB2BD1968200D66389 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214EA2BD1968200D66389 /* SceneFactory.swift */; };
+		325214EE2BD228B200D66389 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214ED2BD228B200D66389 /* LoginViewController.swift */; };
+		325214F32BD2299700D66389 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214F22BD2299700D66389 /* BottomView.swift */; };
+		325214F52BD26ACD00D66389 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325214F42BD26ACD00D66389 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 		325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		325214E72BD18D0E00D66389 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		325214EA2BD1968200D66389 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		325214ED2BD228B200D66389 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		325214F22BD2299700D66389 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		325214F42BD26ACD00D66389 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,20 +221,21 @@
 		325214DE2BCE38C300D66389 /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				325214EC2BD2286D00D66389 /* AuthScene */,
 				325214E92BD1964B00D66389 /* SceneFactory */,
-				325214DF2BCE390800D66389 /* Onboarding */,
+				325214DF2BCE390800D66389 /* OnboardingScene */,
 			);
 			path = UILayer;
 			sourceTree = "<group>";
 		};
-		325214DF2BCE390800D66389 /* Onboarding */ = {
+		325214DF2BCE390800D66389 /* OnboardingScene */ = {
 			isa = PBXGroup;
 			children = (
 				325214E02BCE393400D66389 /* OnboardingViewController.swift */,
 				325214E22BCE397C00D66389 /* OnboardingViewPresenter.swift */,
 				325214E42BCF916C00D66389 /* OnboardingPartViewController.swift */,
 			);
-			path = Onboarding;
+			path = OnboardingScene;
 			sourceTree = "<group>";
 		};
 		325214E62BD18CCE00D66389 /* ServicesLayer */ = {
@@ -245,6 +252,40 @@
 				325214EA2BD1968200D66389 /* SceneFactory.swift */,
 			);
 			path = SceneFactory;
+			sourceTree = "<group>";
+		};
+		325214EC2BD2286D00D66389 /* AuthScene */ = {
+			isa = PBXGroup;
+			children = (
+				325214F12BD2297200D66389 /* Presenters */,
+				325214F02BD2296B00D66389 /* Controllers */,
+				325214EF2BD2295F00D66389 /* Views */,
+				325214ED2BD228B200D66389 /* LoginViewController.swift */,
+			);
+			path = AuthScene;
+			sourceTree = "<group>";
+		};
+		325214EF2BD2295F00D66389 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				325214F22BD2299700D66389 /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		325214F02BD2296B00D66389 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				325214F42BD26ACD00D66389 /* AuthViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		325214F12BD2297200D66389 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325214F52BD26ACD00D66389 /* AuthViewController.swift in Sources */,
 				325214962BCAFB5200D66389 /* ViewController.swift in Sources */,
 				325214922BCAFB5200D66389 /* AppDelegate.swift in Sources */,
 				325214C72BCC538A00D66389 /* UIColor Extension.swift in Sources */,
@@ -338,6 +380,7 @@
 				325214D12BCD33A900D66389 /* AppCoordinator.swift in Sources */,
 				325214D72BCD4D7200D66389 /* OrderCoordinator.swift in Sources */,
 				325214E12BCE393400D66389 /* OnboardingViewController.swift in Sources */,
+				325214EE2BD228B200D66389 /* LoginViewController.swift in Sources */,
 				325214942BCAFB5200D66389 /* SceneDelegate.swift in Sources */,
 				325214DB2BCD4DA400D66389 /* ProfileCoordinator.swift in Sources */,
 				325214D92BCD4D8700D66389 /* ListCoordinator.swift in Sources */,
@@ -347,6 +390,7 @@
 				325214E82BD18D0E00D66389 /* UserStorage.swift in Sources */,
 				325214EB2BD1968200D66389 /* SceneFactory.swift in Sources */,
 				325214C42BCB056E00D66389 /* UIFont Extension.swift in Sources */,
+				325214F32BD2299700D66389 /* BottomView.swift in Sources */,
 				325214E32BCE397C00D66389 /* OnboardingViewPresenter.swift in Sources */,
 				325214CF2BCD11D700D66389 /* Coordinator.swift in Sources */,
 			);
